@@ -1,5 +1,5 @@
-import 'package:bloc_playground/counter/bloc/counter_bloc.dart';
-import 'package:bloc_playground/counter/view/counter_view.dart';
+import 'package:bloc_playground/bloc_counter/bloc/counter_bloc.dart';
+import 'package:bloc_playground/bloc_counter/view/counter_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
