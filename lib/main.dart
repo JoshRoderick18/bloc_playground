@@ -1,4 +1,5 @@
-import 'package:bloc_playground/counter/view/counter_page.dart';
+import 'package:bloc_playground/config/router/app_router.dart';
+import 'package:bloc_playground/config/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: const CounterPage());
+    return MaterialApp.router(routerConfig: appRouter, debugShowCheckedModeBanner: false, theme: AppTheme().getTheme());
   }
 }
