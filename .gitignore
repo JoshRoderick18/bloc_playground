@@ -43,3 +43,56 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Android development environment
+/android/local.properties
+/android/.gradle/
+
+# iOS development environment
+/ios/Pods/
+/ios/Podfile.lock
+
+# Generated files
+.flutter-plugins
+.packages
+.dart_tool/
+pubspec.lock
+
+# IDE specific files
+.vscode/*
+!.vscode/extensions.json
+.vscode/settings.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.directory
+
+# Firebase
+.firebaserc
+firebase-debug.log
+
+# Environment files
+.env
+.env.local
+*.pem
+*.key
+
+# Xcode
+**/xcuserdata/
+**/xcshareddata/
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.moved-aside
+*.xcconfig
+*.xcworkspace/xcuserdata/
+
+# Generated files
+lib/generated/
